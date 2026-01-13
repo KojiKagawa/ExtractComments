@@ -19,3 +19,10 @@ HTML の中のコメントを抽出するシンプルなツールです。
 or
 > python extract_comments.py https://example.com/input.html 
 ```
+
+場合によっては、環境変数 `PYTHONUTF8` を設定して UTF-8 エンコードを強制する必要があります。
+
+```bash
+> set PYTHONUTF8=1  # コマンドプロンプトの場合
+> $env: PYTHONUTF8=1  # PowerShell の場合
+```
